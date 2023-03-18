@@ -242,6 +242,7 @@ nav ul a{
     /* border: 1px solid white; */
     position: relative;
     left: 10%;
+    top: 50px;
 }
 #left h1{
     font-size: 53px;
@@ -251,19 +252,19 @@ nav ul a{
 }
 #head2{
     color: #4F077C;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 #head3{
     color: #FFBFFE;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 #head4{
     color: #3117B3;
-    margin-top: -10px;
+    margin-top: -15px;
 }
 #pp{
     font-weight:600 ;
-    width: 50%;
+    width: 60%;
 }
 #diff{
     display: flex;
@@ -306,7 +307,7 @@ nav ul a{
     /* border: 1px solid red; */
     width: 95%;
     height: auto;
-    margin-top: 0px;
+    margin-top: -20px;
     transform: rotate(1deg);
 }
 
@@ -503,7 +504,7 @@ nav ul a{
     left: 50%;
     transform: translateX(-50%);
     width: 70%;
-    height: 500px;
+    height: 440px;
 
     display: grid;
     grid-template-columns: 40% 40%;
@@ -559,12 +560,12 @@ nav ul a{
     position: absolute;
     top: 250px;
     left: 25px;
-    width: 300px;
+    width: 280px;
 
     /* FONTS */
     font-family: 'Inter',sans-serif;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     color: #FFFFFF;
 }
 
