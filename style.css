@@ -1057,6 +1057,7 @@ nav ul a{
     height:185px;
     /* border: 1px solid white; */
     position: relative;
+    top: 40px;
     
 }
 #ui .fa-solid{
@@ -1085,12 +1086,12 @@ nav ul a{
 #design{
     background-image: url(images/2.jpeg);
     width:35%;
-    height:185px;
+    height:170px;
     /* border: 1px solid white; */
     position: relative;
     right: 20px;
     text-align: right;
-    bottom: 140px;
+    bottom: 120px;
     float: right;
 }
 #design .fa-solid{
