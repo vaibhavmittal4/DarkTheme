@@ -1209,7 +1209,7 @@ nav ul a{
 @media screen and (max-width:700px){
     #services{
         position: absolute;
-       width: 50%;
+       width:40%;
         font-family: 'Inter', sans-serif;
         transform: translateX(-50%);
         left: 50%;
@@ -1253,7 +1253,7 @@ nav ul a{
         /* border: 1px solid white; */
         position: relative;
         right: 80px;
-        top:200px;
+        top:180px;
         
     }
     #ui .fa-solid{
