@@ -1569,12 +1569,12 @@ nav ul a{
     height: 510px;
     position: relative;
     top: 150px;
-    background: url(images/footerimg.jpeg),rgba(249,109,58,6);
+    background: url(images/footerimg.jpeg),rgba(249,109,58,8 );
     /* background: #F96D3A; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
+    background-blend-mode:multiply;
 }
 
 .flogo{
@@ -1710,7 +1710,7 @@ nav ul a{
         height: 710px;
         position: relative;
         top: 350px;
-        background: url(images/footermobigm.png),rgba(249,109,58,6);
+        background: url(images/footermobigm.png),rgba(249,109,58,);
         /* background: #F96D3A; */
         background-position: right;
         background-repeat: no-repeat;
