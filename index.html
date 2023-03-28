@@ -40,7 +40,7 @@
                             <h1 id="head2">Agency Whole</h1><br>
                             <span id="diff"><h1 id="head3">Online</h1> <h1 id="head4">Today.</h1></span><br>
                             <h4 id="pp">We help to create clients desire task properly & our team also colloborate with you.</h4><br>
-                            <span id="diff2"><button id="get">Get Started</button>
+                            <span id="diff2"><button class="glow-on-hover" type="button">Get started</button>
                             <h4 id="how">How it Works</h4> <i class="fa-solid fa-circle-play"></i></span>
                         </div>
                         <div id="right">
@@ -51,7 +51,7 @@
      
                   <!--big boxes grid -->
                  <div class="grid1">
-                    <div class="gbox">
+                    <div class="gbox ">
                         <i class="fa-solid fa-brain gicon"></i>
                         <span class="hg1">The Big Ideas</span>
                         
@@ -199,5 +199,15 @@
                 </div>
    
     </div> 
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".gbox"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare":1,
+	});
+    </script>
 </body>
 </html>
