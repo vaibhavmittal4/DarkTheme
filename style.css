@@ -1996,7 +1996,7 @@ nav ul a{
 
 #cta{
     /* border: 1px solid pink; */
-    background-color: #600642;
+    background-color: #B80C33;
     width:90%;
     position: relative;
     left: 50%;
@@ -2039,7 +2039,7 @@ nav ul a{
     left: 50%;
     top: -12px;
     transform: translateX(-50%);
-    background-color: #600642;
+    background-color: #B80C33;
     padding-left: 15px;
     padding-right: 15px;
 }
