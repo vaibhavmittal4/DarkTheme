@@ -538,13 +538,13 @@ nav ul a{
     top: 700px;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 90%;
     height: 440px;
 
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 20%;
+    gap: 6%;
     
 }
 
@@ -555,6 +555,7 @@ nav ul a{
     background-position: center;
     background-size: cover;
     position: relative;
+    width: 100%;
 }
 
 .gicon{
@@ -578,7 +579,7 @@ nav ul a{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 35PX;
+    font-size: 30px;
 }
 
 .grid1 hr{
