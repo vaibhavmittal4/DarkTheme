@@ -20,7 +20,11 @@
     
                         <input type="checkbox" class="check-menu" id="check">
                         <label for="check" class="checkbox">
-                            <i class="fa-solid fa-bars"></i>
+                            <div id="nav-icon4">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                              </div>
                         </label>
     
                         <ul>
@@ -92,7 +96,7 @@
                         I’m a great place for you to tell a story and let your users know a little more about you.let your users know a little more about you.
                     </span>
 
-                    <a href="#" class="ABlearn">Learn More</a>
+                    <div class="button_slide slide_right">Learn more </div>
                     <img src="images/about.png" class="ABimg">
                     <img src="images/deer.png" class="ABsdimg"> 
                 </div>
@@ -137,12 +141,15 @@
                         <div id="cg">
                             <h3>I need a caregiver</h3>
                             <h4>Start your free search for care in your area.</h4>
-                            <a href="#" class="ABlearnnew">Find Care</a>
-                        </div>
+                            
+                                <div class=" ABlearnnew slide_right2">Learn more </div>
+                            </div>
+
                         <div id="cj" class="ct">
                             <h3>I want a care job</h3>
                             <h4>Create a free profile and search for jobs.</h4>
-                            <a href="#" class="ABlearnnew">Find Jobs</a>
+                            
+                            <div class=" ABlearnnew slide_right2">Learn more </div>
                         </div>
                     </div>
                 </div>
@@ -200,6 +207,7 @@
    
     </div> 
     <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
     <script>
         VanillaTilt.init(document.querySelectorAll(".gbox"), {
@@ -208,6 +216,12 @@
         glare: true,
         "max-glare":1,
 	});
+
+    $(document).ready(function(){
+	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		$(this).toggleClass('open');
+	});
+});
     </script>
 </body>
 </html>
