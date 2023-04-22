@@ -17,7 +17,7 @@ body{
 .imgpart{
     border: px solid white;
     height: 1465px;
-    background: url(images/home-transformed\ \(1\).jpeg);
+    background: url(images/withcatlaptop.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +164,7 @@ ul a:hover::after {
     .imgpart{
         border: px solid white;
         height: 700px;
-        background: url(images/home-transformed\ \(1\)\ -\ Edited.png);
+        background: url(images/withcatmobile.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
